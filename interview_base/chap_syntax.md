@@ -1,6 +1,6 @@
 
 
-# python语言特性
+# chap1 python语言特性
 
 ## 1 python的函数参数传递
 
@@ -55,3 +55,5 @@ print id(a)
 当一个引用传递给函数的时候,函数自动复制一份引用,这个函数里的引用和外边的引用没有半毛关系了.所以第一个例子里函数把引用指向了一个不可变对象,当函数返回的时候,外面的引用没半毛感觉.而第二个例子就不一样了,函数内的引用指向的是可变对象,对它的操作就和定位了指针地址一样,在内存里进行修改.
 
 如果还不明白的话,这里有更好的解释: http://stackoverflow.com/questions/986006/how-do-i-pass-a-variable-by-reference
+
+*参考*[python变量和内存](http://blog.csdn.net/msdnwolaile/article/details/50371991)
