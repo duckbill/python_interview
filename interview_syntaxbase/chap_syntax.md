@@ -57,3 +57,26 @@ print id(a)
 如果还不明白的话,这里有更好的解释: http://stackoverflow.com/questions/986006/how-do-i-pass-a-variable-by-reference
 
 *参考*[python变量和内存](http://blog.csdn.net/msdnwolaile/article/details/50371991)
+
+## 2 详解python相对引入和绝对引入
+
+>前言：我记得我第一次接触绝对和相对的概念时是大学的时候学习html时候提到的『绝对路径』和『相对路径』。其实这里的绝对引入和相对引入是相对于『包内引入』而言的。
+> 『包内导入』：包内部模块导入包内的模块。好比一个家庭里你没有手机你借你哥哥的手机玩。而不是去邻居家借你的好伙伴的手机玩一样。
+
+ ----
+
+### 2.1 为什么需要import
+代码重复利用，分层设计，结构更加清晰。类似C里面`include<>`
+### 2.2 需要知道的名词
+**模块:** 模块通常是个文件，可以作为mnodule的文件类型：“.py”、“.pyo”、“.pyd”、“.so”、“.dll”
+**包：** 通常是个文件夹，随便一个文件夹可不是包哦，约定文件夹中含有`__init__.py`的才算。如果文件里的子文件夹也有`__init__.py`那么这个文件可作为一个子包。
+
+### 2.3 python import的搜索路径
+- 在当前目录下搜索该模块
+- 在环境变量PYTHONPATH中指定路径列表以此搜索
+- 在Python安装路径的lib库中搜索
+
+### 2.3 python import步骤
+python所有加载的模块信息都存放在`sys.modules`结构中，当import一个
+
+> #### 参考：[python import详解]()
