@@ -7,6 +7,9 @@
 >#### 基础篇
 
   * [1. python语法基础](https://github.com/jasonhubs/python_interview/blob/master/interview_syntaxbase/chap_syntax.md/#chap1-python语言特性)
+    * [1.1 python的函数参数传递](https://github.com/jasonhubs/python_interview/blob/master/interview_syntaxbase/chap_syntax.md/#1-python的函数参数传递)
+    * [1.2 python import机制](https://github.com/jasonhubs/python_interview/blob/master/interview_syntaxbase/chap_syntax.md/#2-详解python相对引入和绝对引入)
+    * [1.3 python copy(...)和deepcopy(...)](https://github.com/jasonhubs/python_interview/blob/master/interview_syntaxbase/chap_syntax.md/#3-python浅copy和深copy)
   * [2. 网络](#3)
   * [3. 操作系统](#4)
   * [4. 网络](#5)

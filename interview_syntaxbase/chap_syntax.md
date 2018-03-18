@@ -56,7 +56,7 @@ print id(a)
 
 如果还不明白的话,这里有更好的解释: http://stackoverflow.com/questions/986006/how-do-i-pass-a-variable-by-reference
 
-*参考*[python变量和内存](http://blog.csdn.net/msdnwolaile/article/details/50371991)
+*参考*[python变量和内存](http://blog.csdn.net/msdnwolaile/article/details/50371991)Python 存储变量的方法跟其他 OOP 语言不同。它与其说是把值赋给变量，不如说是给变量建立了一个到具体值的 reference。
 
 ## 2 详解python相对引入和绝对引入
 
@@ -78,5 +78,6 @@ print id(a)
 
 ### 2.3 python import步骤
 python所有加载的模块信息都存放在`sys.modules`结构中，当import一个
-
 > #### 参考：[python import详解]()
+
+## 3 python浅copy和深copy
