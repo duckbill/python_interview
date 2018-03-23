@@ -80,4 +80,7 @@ print id(a)
 python所有加载的模块信息都存放在`sys.modules`结构中，当import一个
 > #### 参考：[python import详解]()
 
-## 3 python浅copy和深copy
+## 3 Python中的元类(metaclass)
+这个非常的不常用,但是像ORM这种复杂的结构还是会需要的，具体参考[https://stackoverflow.com/questions/100003/what-are-metaclasses-in-python](https://stackoverflow.com/questions/100003/what-are-metaclasses-in-python)
+
+## 4 python浅copy和深copy
